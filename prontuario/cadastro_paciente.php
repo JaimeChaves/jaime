@@ -91,7 +91,7 @@
                 </div>
                 <div class="form-group col-xs-6 col-sm-3 col-md-2 col-lg-4 ">
                     <label for="txtCidade">Estado</label>
-                    <select id="txtCidade" name="txtCidade" class="form-control" style="width: 100%;">
+                    <select id="txtCidade" name="txtEstado" class="form-control" style="width: 100%;">
                      		<option selected="" value="">Selecione o Estado (UF)</option>
 							<option value="Acre">Acre</option>
 							<option value="Alagoas">Alagoas</option>

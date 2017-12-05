@@ -34,9 +34,7 @@ class MedicoController{
         $medico->setUsuario($_POST['usuario']);
         $medico->setSenha($_POST['senha']);
         if ($medico->cadastrar())          
-        Conexao::desconectar();
-
-    print_r($medico);
+        Conexao::desconectar():
     
     echo "<meta HTTP-EQUIV='refresh' CONTENT='5;../index.php'>";
        
